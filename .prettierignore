@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.astro/
+.storybook/
+coverage/
+storybook-static/
+src/stories/
