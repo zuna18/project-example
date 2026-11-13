@@ -24,13 +24,13 @@ export default function VolumeSlider({
   const handleChange = (_event: Event, newValue: number | number[]) => {
     const nextValue = newValue as number;
     setValue(nextValue);
-    if (onChange) onChange(max - nextValue);
+    if (onChange) onChange(nextValue);
   };
 
   return (
     <Box sx={{ width: 300 }}>
       <Typography id={labelId} gutterBottom>
-        {label.toUpperCase()}
+        {label}
       </Typography>
       <Slider
         value={value}
