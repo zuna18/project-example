@@ -28,4 +28,3 @@ describe('VolumeSlider Component', () => {
     expect(screen.getByText('Volumen')).toBeInTheDocument();
   });
 });
-
